@@ -48,3 +48,6 @@ sub {
     font-style: italic;
     color: purple;
 }
+h3 {
+    color: rgb(57, 57, 77);
+}
