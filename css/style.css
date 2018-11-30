@@ -51,3 +51,10 @@ sub {
 h3 {
     color: rgb(57, 57, 77);
 }
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
