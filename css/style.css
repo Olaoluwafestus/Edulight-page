@@ -3,7 +3,7 @@
 }
 body {
     padding: 20px;
-    width: 1000px;
+    width: 80vw;
     height: auto;
     border: 1px solid red;
     margin: 0 auto;
@@ -16,6 +16,7 @@ body {
 
 ul {
     position: relative;
+
     left: 700px;
 
 
@@ -27,6 +28,7 @@ ul {
     background-position: left;
     background-repeat: no-repeat;
     z-index: 100;
+
     
 }
 
@@ -96,6 +98,26 @@ h3[class="ict-training"] {
 
 }
 
+
+#services {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+    background-color: #58f06c;
+    padding: 10px;
+
+}
+
+#green {
+    background-color:#0cf82c;
+}
+
+#title {
+    text-align: center;
+    color: purple;
+    font-size: 20px;
+
 h3[class="it-solutions"] {
     color: rgb(88, 88, 175);
 }
@@ -106,5 +128,8 @@ h3[class="business-solutions"] {
 
 p {
     width: 750px;
+
+
 }
+
 
