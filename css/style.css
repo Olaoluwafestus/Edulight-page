@@ -48,9 +48,10 @@ sub {
     font-style: italic;
     color: purple;
 }
-h3 {
+h3[class="ict-training"] {
     color: rgb(57, 57, 77);
 }
+
 
 #services {
     width: 50vw;
@@ -70,4 +71,16 @@ h3 {
     text-align: center;
     color: purple;
     font-size: 20px;
+
+h3[class="it-solutions"] {
+    color: rgb(88, 88, 175);
+}
+
+h3[class="business-solutions"] {
+    color: rgb(22, 80, 22);
+}
+
+p {
+    width: 750px;
+
 }
