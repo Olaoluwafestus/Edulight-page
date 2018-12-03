@@ -7,6 +7,7 @@ body {
     height: auto;
     border: 1px solid red;
     margin: 0 auto;
+    overflow: visible;
 }
 .home {
     border: 20px solid grey;
@@ -16,16 +17,30 @@ body {
 ul {
     position: relative;
     left: 700px;
+
+
+}
+.nav {
+    height: 100px;
+    width: auto;
+    background-image: url("../images/edulight.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 100;
     
 }
 
 li {
     list-style: none;
-    padding: 5px;
+    padding: 20px;
+    margin:0 10px;
     border: 1px solid black;
     display: inline-block;
     text-decoration-line: none;
     background-color: purple;
+    position: relative;
+    left: -200px;
+    top: 30px;
 }
 
 a {
@@ -38,18 +53,47 @@ h1 {
     padding: 200px 5px;
     background-color: purple;
     color: white;
+    font-size: 60px;
+    background-image: url("../images/tech\ future.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 sub {
     position: relative;
     left: 600px;
     bottom: 20px;
-    font-size: 17px;
+    font-size: 20px;
     font-style: italic;
     color: purple;
 }
 h3[class="ict-training"] {
     color: rgb(57, 57, 77);
+
+    font-size: 30px;
+}
+
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: purple;
+    color: white;
+    padding: 0 30px;
+    }
+
+    .phone>img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        position: relative;
+        left: 40px;
+        border: 5px solid green;
+    }
+
 }
 
 h3[class="it-solutions"] {
@@ -63,3 +107,4 @@ h3[class="business-solutions"] {
 p {
     width: 750px;
 }
+
