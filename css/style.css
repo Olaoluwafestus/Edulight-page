@@ -3,9 +3,9 @@
 }
 body {
     padding: 20px;
-    width: 80vw;
+    width: 1000px;
     height: auto;
-    border: 1px solid red;
+ 
     margin: 0 auto;
     overflow: visible;
 }
@@ -85,6 +85,7 @@ h3[class="ict-training"] {
     background-color: purple;
     color: white;
     padding: 0 30px;
+    border-top: 0px;
     }
 
     .phone>img {
@@ -96,27 +97,31 @@ h3[class="ict-training"] {
         border: 5px solid green;
     }
 
-}
+
 
 
 #services {
-    width: 50vw;
-    height: auto;
-    margin: 0 auto;
-    text-align: justify;
-    background-color: #58f06c;
-    padding: 10px;
+    background-image: url("../images/tech\ student.jpg");
+    
+    
+    text-align: left;
+ 
+    padding: 0px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
+
+    
 
 }
 
-#green {
-    background-color:#0cf82c;
-}
+
 
 #title {
     text-align: center;
     color: purple;
     font-size: 20px;
+}
 
 h3[class="it-solutions"] {
     color: rgb(88, 88, 175);
@@ -127,9 +132,15 @@ h3[class="business-solutions"] {
 }
 
 p {
-    width: 400px;
+    width: 600px;
 
 
+}
+
+#green {
+    background-color: rgb(94, 226, 94);
+    padding: 0px;
+    border: 1px solid transparent;
 }
 
 
