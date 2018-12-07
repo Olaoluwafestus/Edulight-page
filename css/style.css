@@ -18,9 +18,12 @@ ul {
     position: relative;
 
     left: 700px;
-
-
 }
+
+.h1 font{
+    font-family: "Open Sans";
+}
+
 .nav {
     height: 100px;
     width: auto;
@@ -61,6 +64,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 
 sub {
@@ -77,6 +81,24 @@ h3[class="ict-training"] {
     font-size: 30px;
 }
 
+#about {
+    text-align: left, bottom; padding-block-end: 0%;
+    padding: 200px 1px;
+    color: whitesmoke;
+    font-size: 45px;
+    background-image: url("../images/cbd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#accolade {
+    color:limegreen;
+    font-family: fantasy;
+    background-color: purple;
+    backface-visibility: unset;
+    [Edulight]:
+}
 
 #contact {
     display: flex;
