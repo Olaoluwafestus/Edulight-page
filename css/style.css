@@ -15,9 +15,16 @@ body {
 }
 
 ul {
+    position: relative;
+    left: 700px;
+}
+
+.h1 font{
+    font-family: "Open Sans";
   position: absolute;
   left: 495px;
 }
+
 .nav {
   display: grid;
   grid-template-columns: 300px 700px;
@@ -50,15 +57,15 @@ a {
 }
 
 h1 {
-  text-align: center;
-  padding: 200px 5px;
-  background-color: purple;
-  color: white;
-  font-size: 60px;
-  background-image: url("../images/tech\ future.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    text-align: center;
+    padding: 200px 5px;
+    background-color: purple;
+    color: white;
+    font-size: 60px;
+    background-image: url("../images/tech\ future.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 sub {
@@ -73,6 +80,25 @@ h3[class="ict-training"] {
   padding-top: 20px;
   color: rgb(34, 34, 146);
   text-align: left;
+}
+
+#about {
+    text-align: left, bottom; padding-block-end: 0%;
+    padding: 200px 1px;
+    color: whitesmoke;
+    font-size: 45px;
+    background-image: url("../images/cbd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#accolade {
+    color:limegreen;
+    font-family: fantasy;
+    background-color: purple;
+    backface-visibility: unset;
+    [Edulight]:
 }
 
 #contact {
