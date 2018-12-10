@@ -3,9 +3,9 @@
 }
 body {
     padding: 20px;
-    width: 80vw;
+    width: 1000px;
     height: auto;
-    border: 1px solid red;
+ 
     margin: 0 auto;
     overflow: visible;
 }
@@ -15,19 +15,25 @@ body {
 }
 
 ul {
-    position: relative;
+    position: absolute;
+    left: 495px;
+    
 
-    left: 700px;
+    
 
 
 }
 .nav {
+    display: grid;
+    grid-template-columns: 300px 700px;
     height: 100px;
-    width: auto;
+    width: 1000px;
+    background-color:white; 
     background-image: url("../images/edulight.jpg");
     background-position: left;
     background-repeat: no-repeat;
     z-index: 100;
+    
 
     
 }
@@ -41,8 +47,9 @@ li {
     text-decoration-line: none;
     background-color: purple;
     position: relative;
-    left: -200px;
-    top: 30px;
+    /* left: -150px; */
+    top: 20px;
+    border-bottom: 5px;
 }
 
 a {
@@ -72,9 +79,10 @@ sub {
     color: purple;
 }
 h3[class="ict-training"] {
-    color: rgb(57, 57, 77);
+    padding-top: 20px;
+    color: rgb(34, 34, 146);
+    text-align: left;
 
-    font-size: 30px;
 }
 
 
@@ -85,6 +93,8 @@ h3[class="ict-training"] {
     background-color: purple;
     color: white;
     padding: 0 30px;
+    border-top: 0px;
+    overflow: hidden;
     }
 
     .phone>img {
@@ -93,30 +103,37 @@ h3[class="ict-training"] {
         border-radius: 50px;
         position: relative;
         left: 40px;
+        bottom: 25px;
         border: 5px solid green;
+        z-index: 200;
     }
 
-}
+
 
 
 #services {
-    width: 50vw;
-    height: auto;
-    margin: 0 auto;
-    text-align: justify;
-    background-color: #58f06c;
-    padding: 10px;
+    display: grid; 
+    background-image: url("../images/tech\ student.jpg");
+    
+    
+    text-align: left;
+ 
+    padding: 0px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 50% 90%;
+
+    
 
 }
 
-#green {
-    background-color:#0cf82c;
-}
+
 
 #title {
     text-align: center;
     color: purple;
     font-size: 20px;
+}
 
 h3[class="it-solutions"] {
     color: rgb(88, 88, 175);
@@ -127,9 +144,22 @@ h3[class="business-solutions"] {
 }
 
 p {
-    width: 750px;
+    width: 600px;
 
 
 }
 
+#green {
+    background-color: rgb(94, 226, 94);
+    padding: 0px;
+    border: 1px solid transparent;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid grey;
+ 
+    float: left;
+    width: 50px;
+}
 
