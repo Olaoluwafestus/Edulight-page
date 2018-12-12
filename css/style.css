@@ -15,8 +15,10 @@ body {
 }
 
 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     position: relative;
-    left: 700px;
+    left: 400px;
 }
 
 .h1 font{
@@ -31,10 +33,11 @@ ul {
   height: 100px;
   width: 1000px;
   background-color: white;
-  background-image: url("../images/edulight.jpg");
+  background-image: url("../images/weblogo.jpg");
   background-position: left;
   background-repeat: no-repeat;
   z-index: 100;
+  background-size: contain;
 }
 
 li {
@@ -49,6 +52,8 @@ li {
   /* left: -150px; */
   top: 20px;
   border-bottom: 5px;
+  text-align: center;
+  justify-content: center;
 }
 
 a {
@@ -66,6 +71,7 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: inherit;
 }
 
 sub {
@@ -98,7 +104,7 @@ h3[class="ict-training"] {
     font-family: fantasy;
     background-color: purple;
     backface-visibility: unset;
-    [Edulight]:
+  
 }
 
 #contact {
@@ -107,9 +113,9 @@ h3[class="ict-training"] {
   justify-content: space-between;
   background-color: purple;
   color: white;
-  padding: 0 30px;
+ 
   border-top: 0px;
-  overflow: hidden;
+  width: 1000px;
 }
 
 .phone > img {
@@ -120,7 +126,9 @@ h3[class="ict-training"] {
   left: 40px;
   bottom: 25px;
   border: 5px solid green;
-  z-index: 200;
+  order: 2;
+  justify-content: center;
+  align-items: center;
 }
 
 #services {
@@ -132,7 +140,7 @@ h3[class="ict-training"] {
   padding: 0px;
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 50% 90%;
+  background-size: 70% 90%;
 }
 
 #title {
